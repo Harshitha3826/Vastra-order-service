@@ -11,7 +11,7 @@ FROM node:20-alpine
 WORKDIR /app
 COPY --from=builder /app/node_modules ./node_modules
 COPY . .
-EXPOSE 3001
+EXPOSE 3003
 CMD ["node", "src/server.js"]
 
 # Install specific versions to mitigate vulnerabilities
