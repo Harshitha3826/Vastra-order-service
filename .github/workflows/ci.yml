@@ -41,3 +41,4 @@ jobs:
       SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
       SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
       EMAIL_TO: ${{ secrets.EMAIL_TO }}
+      HELM_REPO_TOKEN: ${{ secrets.HELM_REPO_TOKEN }}
